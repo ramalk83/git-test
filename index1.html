@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button date-att="Hello world" onclick="getDate()">Click me</button>
+    <p>Change me</p>
+    <script>
+        function getDate(){
+         document.getElementsByTagName("p")[0].textContent=
+         document.getElementsByTagName("button")[0].getAttribute("date-att")
+        }
+    </script>
+</body>
+
+</html>
