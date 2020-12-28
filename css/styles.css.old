@@ -1,0 +1,96 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin:0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+/**custom css*/
+
+
+.card{
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.form-control{
+background-color: rgb(247, 244, 244);
+/*transition:width 2s, height 4s;*/
+}
+
+.table-primary {
+    background-color: #901CAD;
+    color:white;
+}
+
+.navbar{
+    transition:width 2s, height 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color: rgb(89, 12, 160);}
+
+    50%  {background-color:  #c34de0;color:white}
+    100% {background-color: #480563;color:white}
+  }
+  
+  .btn-primary:hover {
+    color: rgb(245, 241, 241);
+    background-color: #480563 !important;
+  }
+  
+  .btn-primary:focus {
+    color: rgb(245, 241, 241);
+    background-color: #63054b !important;
+  }
+  
+  .btn-primary:active {
+    color: white;
+    background-color: green !important;
+  }
+
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}

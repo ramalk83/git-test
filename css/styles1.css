@@ -1,0 +1,47 @@
+
+
+/**custom css*/
+
+
+.card{
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.form-control{
+background-color: rgb(247, 244, 244);
+/*transition:width 2s, height 4s;*/
+}
+
+.table-primary {
+    background-color: #901CAD;
+    color:white;
+}
+
+.navbar{
+    transition:width 2s, height 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color: rgb(89, 12, 160);}
+
+    50%  {background-color:  #c34de0;color:white}
+    100% {background-color: #480563;color:white}
+  }
+  
+  .btn-primary:hover {
+    color: rgb(245, 241, 241);
+    background-color: #480563 !important;
+  }
+  
+  .btn-primary:focus {
+    color: rgb(245, 241, 241);
+    background-color: #63054b !important;
+  }
+  
+  .btn-primary:active {
+    color: white;
+    background-color: green !important;
+  }
